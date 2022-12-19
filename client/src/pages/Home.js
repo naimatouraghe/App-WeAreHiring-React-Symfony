@@ -1,9 +1,11 @@
 import React from 'react'
+import Footer from '../components/Footer'
 import Navigation from '../components/Navigation'
 
 function Home() {
     return (
-        <div><Navigation /></div>
+        <div><Navigation />
+            <Footer /></div>
     )
 }
 
