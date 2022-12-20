@@ -19,7 +19,7 @@ function Navigation() {
                         >
                             <Offcanvas.Header closeButton>
                                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                                    Offcanvas
+                                    <b>WE ARE HIRING</b>
                                 </Offcanvas.Title>
                             </Offcanvas.Header>
                             <Offcanvas.Body>

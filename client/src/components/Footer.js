@@ -3,10 +3,10 @@ import React from "react";
 function Footer() {
     return (
         <footer
-            className="d-flex flex-wrap justify-content-center flex-column align-items-center py-4 my-4"
+            className="d-flex flex-wrap justify-content-center flex-column align-items-center"
             style={{ background: "#ced4da47" }}
         >
-            <p>
+            <p className="pt-4">
                 <b>WE ARE HIRING</b>
             </p>
             <hr
@@ -19,7 +19,7 @@ function Footer() {
                     width: "75%",
                 }}
             />
-            <p className="mb-3 mb-md-0">© 2022 - We Are Hiring</p>
+            <p className="mb-3">© 2022 - We Are Hiring</p>
         </footer>
     );
 }
