@@ -10,7 +10,7 @@ function HeaderHome() {
             <p class="lead mb-4">We hiring allows you to find the best job offers on the market and apply quickly and securely.</p>
 
             <div class=" d-sm-flex justify-content-sm-center">
-                <a class="btn btn-primary btn-lg px-4 gap-3" href="/offers" alt="offers">See all offers</a>
+                <a class="btn btn-primary btn-lg px-4 gap-3" href="/api/offers" alt="offers">See all offers</a>
             </div>
 
         </div>

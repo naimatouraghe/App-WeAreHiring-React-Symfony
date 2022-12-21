@@ -1,0 +1,6 @@
+{
+    "/get/offers&_order=desc&_limit=3": "/get?offers=:offers",
+    "/posts/candidatures\\?id=:id": "/posts?offers=:offers:id",
+    "/posts/messages" : "/posts?messages=:messages:id",
+    "/posts/users\\?id=:id" : "/posts?users=:users:id"
+}

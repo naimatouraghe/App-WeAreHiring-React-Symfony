@@ -27,7 +27,7 @@ function Home() {
                         <h5>Contact us</h5>
                     </div>
                     <div class="d-flex">
-                        <a href="#" class="btn btn-outline-primary btn-lg">
+                        <a href="/api/contact" class="btn btn-outline-primary btn-lg">
                             Contact Us
                         </a>
                     </div>

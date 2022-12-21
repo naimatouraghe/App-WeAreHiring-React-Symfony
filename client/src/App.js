@@ -15,9 +15,9 @@ function App() {
       <Routes>
         <Route path="*" element={<NotFound />} />
         <Route path="/" element={<Home />} />
-        <Route path="/offers" element={<Offers />} />
-        <Route path="offer" element={<SingleOffer />} />
-        <Route path="/contact-us" element={<ContactForm />} />
+        <Route path="/api/offers" element={<Offers />} />
+        <Route path="/api/application/[offer_id]" element={<SingleOffer />} />
+        <Route path="/api/contact" element={<ContactForm />} />
         <Route path="/contact-thanks" element={<ContactThanks />} />
         <Route path="/application" element={<ApplyForm />} />
         <Route path="/apply-thanks" element={<ApplyThanks />} />
